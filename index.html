@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaima Jouini — Ingénieure Systèmes Embarqués, IoT &amp; IA</title>
+<meta name="description" content="Portfolio de Chaima Jouini, ingénieure systèmes embarqués et objets connectés, spécialisée en firmware, IoT et IA embarquée. Recherche CDI dès septembre 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="brand">CJ<span class="brand-dot">•</span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#about">Profil</a>
+      <a href="#experience">Expérience</a>
+      <a href="#projects">Projets</a>
+      <a href="#skills">Compétences</a>
+      <a href="#education">Formation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-ghost btn-small" href="assets/Chaima_JOUINI_CV.pdf" target="_blank" rel="noopener">CV ↓</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="portrait-frame">
+        <img src="assets/chaima.jpg" alt="Portrait de Chaima Jouini" class="portrait-img">
+        <span class="portrait-tag">CJ · REV.2026</span>
+      </div>
+      <p class="eyebrow">SYSTÈME · EMBARQUÉ — IOT — IA</p>
+      <h1 class="hero-name">Chaima<br>Jouini</h1>
+      <p class="hero-role">Ingénieure Systèmes Embarqués &amp; Objets Connectés</p>
+      <p class="hero-sub">Diagnostic bas niveau, firmware, IoT et agents IA embarqués — disponible pour un CDI à partir de <strong>septembre 2026</strong>.</p>
+
+      <div class="hero-meta">
+        <span class="meta-chip">📍 Toulouse, France</span>
+        <span class="meta-chip">✉ chaimajouini59@gmail.com</span>
+        <span class="meta-chip">☎ +33 7 68 21 83 96</span>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="assets/Chaima_JOUINI_CV.pdf" target="_blank" rel="noopener">Télécharger le CV</a>
+        <a class="btn btn-outline" href="https://github.com/chaimajouini59" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn btn-outline" href="#contact">Me contacter</a>
+      </div>
+    </div>
+
+    <div class="hero-diagram" aria-hidden="true">
+      <svg viewBox="0 0 620 620" class="circuit-svg" xmlns="http://www.w3.org/2000/svg">
+        <!-- traces -->
+        <path class="trace" d="M 310 310 L 310 120 L 150 60" />
+        <path class="trace" d="M 310 310 L 480 190 L 540 90" />
+        <path class="trace" d="M 310 310 L 480 430 L 560 500" />
+        <path class="trace" d="M 310 310 L 150 430 L 70 520" />
+        <path class="trace" d="M 310 310 L 130 300 L 40 300" />
+
+        <!-- pulse dots along traces -->
+        <circle class="pulse" r="4" cx="310" cy="310">
+          <animateMotion dur="3.2s" repeatCount="indefinite" path="M 0 0 L 0 -190 L -160 -250" />
+        </circle>
+        <circle class="pulse pulse-b" r="4" cx="310" cy="310">
+          <animateMotion dur="4s" repeatCount="indefinite" path="M 0 0 L 170 -120 L 230 -220" />
+        </circle>
+        <circle class="pulse pulse-c" r="4" cx="310" cy="310">
+          <animateMotion dur="3.6s" repeatCount="indefinite" path="M 0 0 L 170 120 L 250 190" />
+        </circle>
+
+        <!-- center node -->
+        <circle class="node node-center" cx="310" cy="310" r="46" />
+        <text x="310" y="305" class="node-label node-label-main">CJ</text>
+        <text x="310" y="324" class="node-label node-label-sub">CORE</text>
+
+        <!-- domain nodes -->
+        <circle class="node" cx="150" cy="60" r="30" />
+        <text x="150" y="65" class="node-label">EMB</text>
+
+        <circle class="node" cx="540" cy="90" r="30" />
+        <text x="540" y="95" class="node-label">IOT</text>
+
+        <circle class="node" cx="560" cy="500" r="30" />
+        <text x="560" y="505" class="node-label">AI</text>
+
+        <circle class="node node-dim" cx="70" cy="520" r="22" />
+        <text x="70" y="524" class="node-label node-label-small">FPGA</text>
+
+        <circle class="node node-dim" cx="40" cy="300" r="22" />
+        <text x="40" y="304" class="node-label node-label-small">SEC</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="section-eyebrow">// PROFIL</p>
+      <p class="about-text">
+        Ingénieure diplômée d'un double-diplôme entre l'<strong>ISI Tunis</strong> et <strong>Sorbonne Paris Nord</strong> (Institut Galilée), spécialisée en systèmes embarqués et objets connectés. Expérience concrète sur toute la chaîne embarquée&nbsp;: diagnostic de protocoles bas niveau (SPI, CAN, ISO&nbsp;7816-4/15765-2), développement firmware (STM32/ESP32), conception numérique (VHDL/FPGA) et IA embarquée (agents de diagnostic RAG/LLM, vision par ordinateur). Une expertise complémentaire en sécurité automobile (Digital Key, AUTOSAR, IBM DOORS) et en systèmes IoT (MQTT, LoRa, Node-RED).
+      </p>
+      <div class="about-tags">
+        <span class="tag">Firmware</span>
+        <span class="tag">Protocoles embarqués</span>
+        <span class="tag">IoT</span>
+        <span class="tag">IA / RAG</span>
+        <span class="tag">FPGA / VHDL</span>
+        <span class="tag">Sécurité automobile</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="section-inner">
+      <p class="section-eyebrow">// EXPÉRIENCE PROFESSIONNELLE</p>
+      <h2 class="section-title">Stages &amp; missions</h2>
+
+      <ol class="timeline">
+        <li class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>Ingénieure stagiaire — Systèmes Embarqués</h3>
+              <span class="tl-date">02/2026 – 08/2026</span>
+            </div>
+            <p class="tl-company">Aumovio (ex-Continental Automotive) · Toulouse</p>
+            <ul>
+              <li>Conception d'un pipeline de détection d'anomalies sur communications <strong>SPI (ISO 7816-4)</strong> et <strong>CAN (ISO 15765-2)</strong> d'un système d'accès véhicule sans clé (Digital Key, CCC) combinant NFC, BLE, UWB.</li>
+              <li>Parsing bas niveau des trames <strong>APDU/BER-TLV</strong> et <strong>CAN-TP</strong>, décodage de traces CANoe (.asc) avec support DBC.</li>
+              <li>Moteur de règles métier avec traçabilité bidirectionnelle vers les exigences <strong>IBM DOORS</strong>.</li>
+              <li>Agent IA (<strong>RAG + LLM</strong>) pour diagnostic en langage naturel, intégré en <strong>Jenkins CI/CD</strong>.</li>
+              <li>Solution adoptée par les équipes France, Allemagne, Singapour, Roumanie.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tag tag-mono">SPI</span><span class="tag tag-mono">CAN</span><span class="tag tag-mono">AUTOSAR</span><span class="tag tag-mono">RAG/LLM</span><span class="tag tag-mono">Jenkins</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>Stagiaire — Passerelle IoT &amp; Supervision</h3>
+              <span class="tl-date">05/2025 – 08/2025</span>
+            </div>
+            <p class="tl-company">Actia Engineering Services · Rennes</p>
+            <ul>
+              <li>Développement d'une passerelle <strong>STM32 / Raspberry Pi</strong> pour acquisition de température via bus CAN, transmission Ethernet (LwIP) et publication MQTT.</li>
+              <li>Interface de supervision temps réel (Python/Tkinter) pour détection précoce de défauts à distance.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tag tag-mono">STM32</span><span class="tag tag-mono">CAN</span><span class="tag tag-mono">LwIP</span><span class="tag tag-mono">MQTT</span><span class="tag tag-mono">Python</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>Stagiaire — Firmware</h3>
+              <span class="tl-date">06/2023 – 08/2023</span>
+            </div>
+            <p class="tl-company">Actia Engineering Services · Tunis</p>
+            <ul>
+              <li>Implémentation d'un bootloader et d'un système de mise à jour firmware pour carte STM32, permettant un déploiement logiciel sécurisé.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tag tag-mono">STM32</span><span class="tag tag-mono">Bootloader</span><span class="tag tag-mono">C embarqué</span>
+            </div>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <div class="tl-head">
+              <h3>Stagiaire — IA &amp; Systèmes Embarqués</h3>
+              <span class="tl-date">01/2022 – 05/2022</span>
+            </div>
+            <p class="tl-company">InnovAnt Studio · Tunis</p>
+            <ul>
+              <li>Système d'identification automatique des pathologies de plantes par deep learning, déployé sur <strong>NVIDIA Jetson Nano</strong>.</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="tag tag-mono">Deep Learning</span><span class="tag tag-mono">Jetson Nano</span>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <p class="section-eyebrow">// PROJETS ACADÉMIQUES &amp; PERSONNELS</p>
+      <h2 class="section-title">Catalogue de projets</h2>
+      <p class="section-note">D'autres projets arrivent bientôt — retrouve tout le code sur <a href="https://github.com/chaimajouini59" target="_blank" rel="noopener">github.com/chaimajouini59</a>.</p>
+
+      <div class="project-grid" id="project-grid">
+        <!-- injected by script.js from data, but static fallback below -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-dark">
+    <div class="section-inner">
+      <p class="section-eyebrow section-eyebrow-light">// PINOUT — COMPÉTENCES TECHNIQUES</p>
+      <h2 class="section-title section-title-light">Stack technique</h2>
+
+      <div class="pinout">
+        <div class="pin-group">
+          <h3>Langages</h3>
+          <div class="chips">
+            <span class="chip">C</span><span class="chip">C embarqué</span><span class="chip">C++</span><span class="chip">C#</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">VHDL</span><span class="chip">Assembleur</span>
+          </div>
+        </div>
+        <div class="pin-group">
+          <h3>MCU / Cartes</h3>
+          <div class="chips">
+            <span class="chip">STM32</span><span class="chip">ESP32</span><span class="chip">Arduino</span><span class="chip">Raspberry Pi</span><span class="chip">Jetson Nano</span><span class="chip">ZedBoard</span><span class="chip">FreeRTOS</span>
+          </div>
+        </div>
+        <div class="pin-group">
+          <h3>Protocoles</h3>
+          <div class="chips">
+            <span class="chip">SPI</span><span class="chip">I2C</span><span class="chip">UART</span><span class="chip">CAN</span><span class="chip">TCP/IP</span><span class="chip">Ethernet</span><span class="chip">Wi-Fi</span><span class="chip">Bluetooth</span><span class="chip">Zigbee</span><span class="chip">MQTT</span><span class="chip">LoRa</span>
+          </div>
+        </div>
+        <div class="pin-group">
+          <h3>Automobile &amp; Sécurité</h3>
+          <div class="chips">
+            <span class="chip">CCC Digital Key</span><span class="chip">iCCC</span><span class="chip">Smart Access</span><span class="chip">AUTOSAR</span><span class="chip">CANoe/CANalyzer</span><span class="chip">ISO 7816-4</span><span class="chip">ISO 15765-2</span><span class="chip">IBM DOORS</span>
+          </div>
+        </div>
+        <div class="pin-group">
+          <h3>IA / Data</h3>
+          <div class="chips">
+            <span class="chip">Machine Learning</span><span class="chip">Deep Learning</span><span class="chip">Computer Vision</span><span class="chip">RAG / LLM</span><span class="chip">TensorFlow</span>
+          </div>
+        </div>
+        <div class="pin-group">
+          <h3>Bases de données &amp; IoT</h3>
+          <div class="chips">
+            <span class="chip">MySQL</span><span class="chip">SQLite</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">Node-RED</span><span class="chip">Mosquitto</span>
+          </div>
+        </div>
+        <div class="pin-group">
+          <h3>DevOps &amp; Méthodo</h3>
+          <div class="chips">
+            <span class="chip">Git</span><span class="chip">Jenkins CI/CD</span><span class="chip">Agile/Scrum</span><span class="chip">Tests unitaires</span>
+          </div>
+        </div>
+        <div class="pin-group">
+          <h3>Outils</h3>
+          <div class="chips">
+            <span class="chip">STM32CubeIDE</span><span class="chip">Keil</span><span class="chip">Eclipse</span><span class="chip">VS Code</span><span class="chip">Xilinx Vivado</span><span class="chip">ModelSim</span><span class="chip">MATLAB</span><span class="chip">PyCharm</span><span class="chip">ROS 1/2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="section-inner">
+      <p class="section-eyebrow">// FORMATION</p>
+      <h2 class="section-title">Parcours académique</h2>
+
+      <div class="edu-list">
+        <div class="edu-item">
+          <span class="edu-date">09/2024 – aujourd'hui</span>
+          <div>
+            <h3>Cycle d'ingénieur — Systèmes Embarqués &amp; Instrumentation</h3>
+            <p>Université Sorbonne Paris Nord (Institut Galilée) — double-diplôme avec l'ISI · Lauréate de la bourse d'excellence de l'Institut Galilée</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <span class="edu-date">09/2022 – 06/2024</span>
+          <div>
+            <h3>Cycle d'ingénieur — Systèmes Embarqués &amp; Objets Connectés</h3>
+            <p>Institut Supérieur d'Informatique (ISI), Tunis</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <span class="edu-date">09/2019 – 06/2022</span>
+          <div>
+            <h3>Licence — Électronique, Électrotechnique &amp; Automatique, spé. Systèmes Embarqués</h3>
+            <p>Institut Supérieur d'Informatique, Tunis</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-title">Certifications</h3>
+      <div class="cert-grid">
+        <span class="cert">Architecture &amp; programmation microcontrôleurs STM32 — CSF, 2021</span>
+        <span class="cert">Linux embarqué &amp; temps réel — CSF, 2021</span>
+        <span class="cert">Application C++ sur Linux embarqué — CSF, 2021</span>
+        <span class="cert">Architecture plateforme embarquée Linux + Python — CSF, 2021</span>
+        <span class="cert">Arm Cortex-M Processors Overview — 2023</span>
+        <span class="cert">Azure Data Fundamentals — 2023</span>
+      </div>
+
+      <h3 class="sub-title">Langues &amp; engagement associatif</h3>
+      <div class="two-col">
+        <div>
+          <div class="chips">
+            <span class="chip">Français — Natif</span>
+            <span class="chip">Anglais — C1/C2</span>
+            <span class="chip">Arabe — Natif</span>
+          </div>
+        </div>
+        <ul class="assoc-list">
+          <li>Membre du club robotique — Coupe de France de Robotique 2025</li>
+          <li>Cheffe de projet Clean'R &amp; Beebite — Enactus ISI (2022–2024)</li>
+          <li>Joueuse de handball (2011–2023)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-dark">
+    <div class="section-inner contact-inner">
+      <p class="section-eyebrow section-eyebrow-light">// CONTACT</p>
+      <h2 class="section-title section-title-light">Construisons quelque chose ensemble.</h2>
+      <p class="contact-sub">Disponible pour un CDI en systèmes embarqués, IoT ou IA à partir de septembre 2026 — basée à Toulouse, ouverte à la mobilité.</p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:chaimajouini59@gmail.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">chaimajouini59@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+33768218396">
+          <span class="contact-label">Téléphone</span>
+          <span class="contact-value">+33 7 68 21 83 96</span>
+        </a>
+        <a class="contact-card" href="https://github.com/chaimajouini59" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">chaimajouini59</span>
+        </a>
+        <span class="contact-card contact-card-static">
+          <span class="contact-label">Localisation</span>
+          <span class="contact-value">Toulouse, France</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Chaima Jouini. Construit avec soin — hébergé sur GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
