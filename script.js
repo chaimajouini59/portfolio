@@ -75,6 +75,38 @@ const PROJECTS = [
     desc: "Robot piloté par reconnaissance de gestes manuels, avec contrôle à distance via MQTT et interface Flask.",
     tags: ["TensorFlow", "Raspberry Pi 4", "MQTT", "Flask"],
     link: null
+  },
+  {
+    domain: "IOT",
+    year: "2024",
+    title: "Contrôle des Systèmes HVAC dans un Train",
+    desc: "Système de contrôle HVAC embarqué pour train, avec acquisition capteurs/actionneurs et communication temps réel via MQTT.",
+    tags: ["Raspberry Pi", "Automation HAT Mini", "MQTT", "Automatisation", "Capteurs", "Actionneurs"],
+    link: null
+  },
+  {
+    domain: "EMBARQUÉ",
+    year: "2024",
+    title: "Détection & Prédiction de Mouvement — Nœud IoT STM32L4",
+    desc: "Détection et prédiction de l'état de mouvement d'une personne à partir de capteurs intégrés, avec traitement embarqué sur nœud IoT STM32L4.",
+    tags: ["STM32L4", "IoT Node", "Capteurs", "Traitement embarqué"],
+    link: null
+  },
+  {
+    domain: "IA",
+    year: "2024",
+    title: "Détection & Identification d'Intrus — Suivi Temps Réel",
+    desc: "Solution de détection et d'identification d'intrus, avec application web déployée en local et sur le cloud pour la gestion et le suivi en temps réel des présences.",
+    tags: ["Computer Vision", "Application Web", "Cloud", "Temps réel"],
+    link: "https://github.com/chaimajouini59/attendance-face-app"
+  },
+  {
+    domain: "EMBARQUÉ",
+    year: "2022",
+    title: "Interpréteur de Commandes Shell",
+    desc: "Développement d'un interpréteur de commandes Shell sous Ubuntu, manipulant directement les appels système en langage C.",
+    tags: ["Ubuntu", "Appels système", "C", "Makefile", "GCC", "GDB"],
+    link: null
   }
 ];
 
